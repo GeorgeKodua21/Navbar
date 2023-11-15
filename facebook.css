@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+
+
+.content {
+    width: 50%;
+    padding: 20px;
+    margin-right: 5%;
+    margin-left: 8%;
+    box-sizing: border-box;
+}
+
+.login-form {
+    width: 30%;
+    height: 60%;
+    padding: 20px;
+    margin-right: 10%;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #ddd; /* Add borders for separation */
+    border-radius: 8px;
+}
+
+/* Style form elements */
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 8px;
+}
+
+.login-form input {
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 18px;
+    background-color: #1877f2; /* Facebook blue color */
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form a{
+    text-decoration: none;
+    padding-top: 30px;
+    margin-left: 30%;
+    font-size: 14px;
+}
+
+.login-form hr{
+    color: solid;
+}
+
+.login-form p{
+    padding: 25px;
+    font-size: 14px;
+}
+
+#btn{
+    width: 60%;
+    padding: 18px;
+    background-color: rgb(64, 187, 64); /* Facebook blue color */
+    font-size: 16px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: green;
+}
+
+.login-form button:hover {
+    background-color: #0e5a8a;
+}
+
+#f{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #4267B2;
+}
+
+#p{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 10%;
+}
+
